@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+   <FrameLayout 
+       android:layout_width="match_parent"
+       android:layout_height="130dp"
+       >
+       <ImageView 
+        android:id="@+id/background_iv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/_1481885008504"
+        android:layout_gravity="top"
+        android:scaleType="centerCrop"
+        />
+		<TextView 
+	    android:id="@+id/orderby_tv"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="#ffffff"
+	    android:text="新游周刊第80期"
+	    android:textSize="20sp"
+	    android:layout_gravity="bottom"
+	    
+	    />
+       <ImageView 
+           android:id="@+id/authorimg_iv"
+           android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:src="@drawable/_1478655079153"
+           android:layout_gravity="right|bottom"
+           android:scaleType="centerCrop"
+           
+           />
+       
+   </FrameLayout> 
+
+</RelativeLayout>

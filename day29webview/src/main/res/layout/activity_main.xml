@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="day23downappbyservice.day29webview.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击加载本地网页文件"
+        android:onClick="loadLocalWeb"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击加载其他网页"
+        android:onClick="clickBaidu"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="加载程序写成的网页"
+        android:onClick="onClickByCode"/>
+    <WebView
+    android:id="@+id/text_wb"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    </WebView>
+</LinearLayout>

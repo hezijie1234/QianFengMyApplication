@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/first_frag_toolbar"
+        android:layout_width="match_parent"
+        android:background="#00FF7F"
+
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/firstfrag_toolbar_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/toolbar_image"/>
+            <TextView
+                android:id="@+id/firstfrag_toolbar_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                android:text="礼包精灵"/>
+            <TextView
+                android:id="@+id/first_toolbar_search_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="搜索"
+                android:layout_marginRight="10dp"
+                android:layout_centerVertical="true"
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                android:layout_alignParentRight="true"
+                />
+
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.handmark.pulltorefresh.library.PullToRefreshListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/pull_refresh_lv"
+            />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "G:\\java\\Android\\MyApplication\\androidDay1\\build\\intermediates\\res\\merged\\debug\\layout\\four_textview.xml",
+        "source": "G:\\java\\Android\\MyApplication\\androidDay1\\src\\main\\res\\layout\\four_textview.xml"
+    },
+    {
+        "merged": "G:\\java\\Android\\MyApplication\\androidDay1\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "G:\\java\\Android\\MyApplication\\androidDay1\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]

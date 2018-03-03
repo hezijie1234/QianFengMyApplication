@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义属性的集合 name为自定义控件的类名-->
+    <declare-styleable name="Notepad">
+        <!--自定义属性 name是属性名，format为属性值类型-->
+        <attr name="lineColor" format="color"/>
+        <attr name="lineHeight" format="integer"/>
+    </declare-styleable>
+</resources>

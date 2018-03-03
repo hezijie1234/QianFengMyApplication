@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout 
+        android:id="@+id/refirst"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+    <TextView 
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff00"
+        android:text="@string/text_view"
+        android:textSize="30sp"
+        
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="-1"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        />
+    </RelativeLayout>
+    <RelativeLayout 
+        android:id="@+id/reSecond"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+    <TextView 
+        android:id="@+id/second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/phone"
+        android:drawableLeft="@android:drawable/ic_menu_call"
+        android:autoLink="phone"
+        android:linksClickable="true"
+        android:drawablePadding="20dp"
+        android:layout_marginTop="5dp"
+       	android:gravity="center_vertical"
+        
+        
+        />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "F:\\java\\Android\\MyApplication\\week3Test\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "F:\\java\\Android\\MyApplication\\week3Test\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\java\\Android\\MyApplication\\week3Test\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\_1481885008504.jpg",
+        "source": "F:\\java\\Android\\MyApplication\\week3Test\\src\\main\\res\\drawable-hdpi\\_1481885008504.jpg"
+    },
+    {
+        "merged": "F:\\java\\Android\\MyApplication\\week3Test\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\_1478655079153.jpg",
+        "source": "F:\\java\\Android\\MyApplication\\week3Test\\src\\main\\res\\drawable-hdpi\\_1478655079153.jpg"
+    }
+]

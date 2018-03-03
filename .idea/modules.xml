@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PullRefresh_library/PullRefresh_library.iml" filepath="$PROJECT_DIR$/PullRefresh_library/PullRefresh_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidDay1/androidDay1.iml" filepath="$PROJECT_DIR$/androidDay1/androidDay1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day12UI/day12UI.iml" filepath="$PROJECT_DIR$/day12UI/day12UI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day13MyDB/day13MyDB.iml" filepath="$PROJECT_DIR$/day13MyDB/day13MyDB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day15AsyncLoader/day15AsyncLoader.iml" filepath="$PROJECT_DIR$/day15AsyncLoader/day15AsyncLoader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day15LoaderManager/day15LoaderManager.iml" filepath="$PROJECT_DIR$/day15LoaderManager/day15LoaderManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day32_butter_knife_demo/day32_butter_knife_demo.iml" filepath="$PROJECT_DIR$/day32_butter_knife_demo/day32_butter_knife_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day32_dagger2_demo/day32_dagger2_demo.iml" filepath="$PROJECT_DIR$/day32_dagger2_demo/day32_dagger2_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day32_dependency_injection_demo/day32_dependency_injection_demo.iml" filepath="$PROJECT_DIR$/day32_dependency_injection_demo/day32_dependency_injection_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day32butterknifetest/day32butterknifetest.iml" filepath="$PROJECT_DIR$/day32butterknifetest/day32butterknifetest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day32dependencyinjector/day32dependencyinjector.iml" filepath="$PROJECT_DIR$/day32dependencyinjector/day32dependencyinjector.iml" />
+    </modules>
+  </component>
+</project>

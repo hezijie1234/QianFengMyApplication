@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">何子杰</string>
+    <string name="dog_hello">This is a dog</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="phone">13164101894</string>
+    <string name="text_view">捡垃圾扶贫基金阿弗莱克接啊卡了副武器；去看其他同情；投票贴考勤机；块钱；两千快发啊克拉卡卡发放拉开 老卡啊看了看啊；洛克。</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

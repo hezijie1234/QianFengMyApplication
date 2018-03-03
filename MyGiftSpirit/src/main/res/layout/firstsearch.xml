@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:contentInsetLeft="0dp"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/search_bar"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00ff00">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/back"
+                android:onClick="backOnClick"/>
+            <EditText
+                android:id="@+id/search_eidt"
+                android:background="@drawable/search_edittext"
+                android:layout_width="150dp"
+                android:layout_centerInParent="true"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="搜索"
+                android:paddingRight="10dp"
+                android:textSize="20dp"
+                android:layout_alignParentRight="true"
+                android:onClick="searchOnClick"
+                android:layout_centerVertical="true"
+                android:textColor="#ffffff"/>
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+    <ListView
+        android:layout_below="@+id/search_bar"
+        android:id="@+id/search_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+</RelativeLayout>

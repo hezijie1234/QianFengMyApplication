@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="搜索"
+        android:icon="@android:drawable/ic_menu_search"
+        android:id="@+id/item_search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView"/>
+    <item
+        android:title="编辑"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:id="@+id/item_edit"
+        app:showAsAction="ifRoom|withText"/>
+    <item
+        android:title="添加"
+        android:icon="@android:drawable/ic_menu_add"
+        android:id="@+id/item_add"
+        app:showAsAction="ifRoom|withText"/>
+    <item
+        android:title="删除"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:id="@+id/item_delete"
+        app:showAsAction="ifRoom|withText"/>
+</menu>
